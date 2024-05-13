@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Calculadora_Distancia</string>
+    <string name="digite_o_valor">DIGITE O VALOR</string>
+    <string name="centimetros">CENTIMETROS</string>
+    <string name="metros">METROS</string>
+    <string name="quilometros">QUILOMETROS</string>
+    <string name="milhas">MILHAS</string>
+    <string name="o_valor_transformado">O VALOR TRANSFORMADO É:</string>
+    <string name="transformar_em">TRANSFORMAR EM:</string>
+
+    <string-array name="distancias">
+        <item>Centimetros</item>
+        <item>Metros</item>
+        <item>Kilometros</item>
+        <item>Milhas</item>
+    </string-array>
+
+</resources>

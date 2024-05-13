@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/digite_o_valor"
+        android:layout_marginTop="70dp"
+        android:textSize="20sp"
+        android:gravity="center"/>
+
+
+
+    <EditText
+        android:id="@+id/valueTransformation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="50sp"
+        android:gravity="center"/>
+
+    <Spinner
+        android:id="@+id/mySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/distancias" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/transformar_em"
+        android:layout_marginTop="70dp"
+        android:textSize="20sp"
+        android:gravity="center"/>
+
+    <Spinner
+        android:id="@+id/requestSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/distancias" />
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:background="@color/teal_200"/>
+
+    <TextView
+        android:id="@+id/resultValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="120sp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"/>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
